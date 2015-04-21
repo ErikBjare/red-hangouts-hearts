@@ -1,0 +1,13 @@
+{
+  "name": "Red Hangouts Hearts",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Makes the ugly purple hearts in Hangouts red.",
+  "content_scripts": [
+    {
+      "matches": ["https://talkgadget.google.com/*"], 
+      "all_frames": true,
+      "css": ["style.css"]
+    }
+  ]
+}
